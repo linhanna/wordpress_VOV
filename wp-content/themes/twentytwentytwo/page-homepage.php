@@ -41,7 +41,15 @@
                     </a>
                 </div>
                 <div>
-                        <p>Thứ 5, ngày 05 tháng 10 năm 2022</p>
+                        <p id="hvn">
+                            <script>
+                                var today = new Date();
+                                var date = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear();
+                                var time = today.getHours()+":" + today.getMinutes()+":" + today.getSeconds();
+                                var dateTime = date+' '+time;
+
+                                document.getElementById("hvn").innerHTML = dateTime;
+                            </script></p>
                 </div>               
                     <div class="infor__logoSocial">
                         <i class="fa-brands fa-facebook"></i>
@@ -91,19 +99,23 @@
                         <li>Bị cáo Tất Thành Cang tiếp tục hầu tòa trong vụ án bán rẻ đất công</li>
                         <li>Đã có kết quả giám định ADN 2 bộ hài cốt trong rừng Gia Lai</li>
                         <li>Vụ 8 tàu cá và ca nô bị cháy tại bến Cửa Đại, có thể do chập điện </li>
+                        <li>Bị cáo Tất Thành Cang tiếp tục hầu tòa trong vụ án bán rẻ đất công</li>
+                        <li>Đã có kết quả giám định ADN 2 bộ hài cốt trong rừng Gia Lai</li>
+                        <li>Vụ 8 tàu cá và ca nô bị cháy tại bến Cửa Đại, có thể do chập điện </li>
+                        
                     </ul>
             </div>  
             <div class="small">
                 <div class="card__small">
                     <a href="">
-                        <img src="https://media2.vov.vn/sites/default/files/styles/front_large/public/2022-10/kristalina_georgieva.jpg" alt="">
+                        <img src="https://media.vov.vn/sites/default/files/styles/large/public/2022-10/Putin%20Tap%20Can%20Binh%20Nga%20Trung%20Quoc%20-Kremlin.jpg" alt="">
                     </a>
                     <p class="title">Bị cáo Tất Thành Cang tiếp tục hầu tòa trong vụ án bán rẻ đất công</p>                    
                 </div>  
 
                 <div class="card__small">
                     <a href="">
-                        <img src="https://media2.vov.vn/sites/default/files/styles/front_large/public/2022-10/kristalina_georgieva.jpg" alt="">
+                        <img src="https://media.vov.vn/sites/default/files/styles/large_watermark/public/2022-10/cao_toc_11.jpg" alt="">
                     </a>
                     <p class="title">Bị cáo Tất Thành Cang tiếp tục hầu tòa trong vụ án bán rẻ đất công</p>                    
                 </div> 
@@ -131,6 +143,56 @@
                         </div>
 
                         <div class="card__news--content">
+                        <div class="img">                        
+                            <a href="">
+                                <img src="https://media2.vov.vn/sites/default/files/styles/front_large_watermark/public/2022-10/cl1.jpg" alt="">
+                            </a>
+                        </div>
+                        
+                        <div class="content__title">Trạm BOT Cai Lậy chính thức được thu phí trở lại</div>
+                    </div>
+
+                    <div class="card__news--content">
+                        <div class="img">                        
+                            <a href="">
+                                <img src="https://media2.vov.vn/sites/default/files/styles/front_large_watermark/public/2022-10/cl1.jpg" alt="">
+                            </a>
+                        </div>
+                        
+                        <div class="content__title">Trạm BOT Cai Lậy chính thức được thu phí trở lại</div>
+                    </div>
+                    
+                    <div class="card__news--content">
+                        <div class="img">                        
+                            <a href="">
+                                <img src="https://media2.vov.vn/sites/default/files/styles/front_large_watermark/public/2022-10/cl1.jpg" alt="">
+                            </a>
+                        </div>
+                        
+                        <div class="content__title">Trạm BOT Cai Lậy chính thức được thu phí trở lại</div>
+                    </div>
+
+                    <div class="card__news--content">
+                        <div class="img">                        
+                            <a href="">
+                                <img src="https://media2.vov.vn/sites/default/files/styles/front_large_watermark/public/2022-10/cl1.jpg" alt="">
+                            </a>
+                        </div>
+                        
+                        <div class="content__title">Trạm BOT Cai Lậy chính thức được thu phí trở lại</div>
+                    </div>
+
+                    <div class="card__news--content">
+                        <div class="img">                        
+                            <a href="">
+                                <img src="https://media2.vov.vn/sites/default/files/styles/front_large_watermark/public/2022-10/cl1.jpg" alt="">
+                            </a>
+                        </div>
+                        
+                        <div class="content__title">Trạm BOT Cai Lậy chính thức được thu phí trở lại</div>
+                    </div>
+
+                    <div class="card__news--content">
                         <div class="img">                        
                             <a href="">
                                 <img src="https://media2.vov.vn/sites/default/files/styles/front_large_watermark/public/2022-10/cl1.jpg" alt="">
